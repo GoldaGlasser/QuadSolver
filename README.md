@@ -1,0 +1,2 @@
+# QuadSolver
+A quadratic grapher 
