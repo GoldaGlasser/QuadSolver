@@ -200,6 +200,11 @@ function plotVertex(){
 	context.arc(vX*k+(w/2),-vY*k+(h/2),5,0,2*Math.PI);
 	context.stroke();
 	context.strokeStyle = "blue";}
+	
+	
+     reload1() {
+    location.reload();
+}
 	</script>
 
 	<style type="text/css">
@@ -409,7 +414,7 @@ a{
 				<p1><button onclick="plotXint()"> X-int </button>		</p1>
 				<p1><button onclick="symLine()"> Sym Line </button>		</p1>
 				<p1><button onclick="plotVertex()"> Vertex </button>		</p1>
-				<p1><button id="clear"><a href="http://goldaglasser.github.io/QuadSolver">Clear Graph</a></button>	</p1>
+				<p1><button id="clear" onclick="reload1()">Clear Graph</button>	</p1>
 			</div>
 			<canvas id="mycanvas"></canvas>
 			<div id= "zoom">
